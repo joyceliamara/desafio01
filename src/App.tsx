@@ -1,11 +1,16 @@
 import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
+import CreateTask from "./components/CreateTask";
+import TaskList from "./components/TaskList";
+import { TaskProvider } from "./contexts/TaskContent";
 
 export default function App() {
   return (
     <div>
       <Header />
-      <SearchBar />
+      <TaskProvider>
+        <CreateTask />
+        <TaskList />
+      </TaskProvider>
     </div>
   );
 }

@@ -1,0 +1,57 @@
+.wrapper {
+  max-width: 480px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.taskListHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.nothingToShow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.nothingToShow img {
+  width: 3rem;
+}
+
+.nothingToShow div {
+  margin-top: 2rem;
+  text-align: center;
+}
+.nothingToShow div span {
+  display: block;
+}
+
+.list {
+}
+
+.list li {
+  list-style: none;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.list li div {
+  flex: 1;
+}
+
+.list li svg {
+  cursor: pointer;
+}
+
+/* .list li input {
+  transform: scale(1.5);
+  border-radius: 50%;
+  appearance: none;
+} */

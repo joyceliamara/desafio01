@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-50%);
+  gap: 10px;
+}
+
+.wrapper input {
+  width: 26%;
+}

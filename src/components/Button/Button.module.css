@@ -1,0 +1,9 @@
+button {
+  all: unset;
+  background-color: #1e6f9f;
+  border-radius: 8px;
+  height: fit-content;
+  font-size: 11px;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
